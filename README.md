@@ -3,7 +3,7 @@ See our VCU I/O masterlist documentation on the Shared Google Drive [here](https
 
 Created using Kvaser Database Editor.
 
-A CAN DBC file (CAN database) is a text file that contains information for decoding raw CAN bus data to 'physical values'.
+CAN DBC file (CAN database): a text file that contains information for decoding raw CAN bus data to 'physical values'
 
 | Component | DBC File(s) | Owner |
 | :--- | :--- | :--- |
