@@ -37,26 +37,26 @@ BU_:
 
 
 BO_ 1616 out_io: 8 Vector__XXX
- SG_ dout_set : 0|1@1- (1,0) [0|0] "" Vector__XXX
- SG_ gps_setpower : 1|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ dout_set : 0|1@1- (1,0) [0|1] "" Vector__XXX
+ SG_ gps_setpower : 1|1@1- (1,0) [0|1] "" Vector__XXX
 
 BO_ 1617 out_poweroff: 8 Vector__XXX
- SG_ gps_poweroff : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ gps_poweroff : 0|1@1+ (1,0) [0|1] "" Vector__XXX
 
 BO_ 1618 out_gyro: 8 Vector__XXX
- SG_ gyro_set_scale : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ gyro_set_scale : 0|2@1+ (1,0) [0|2] "" Vector__XXX
 
 BO_ 1619 out_bmc_accelscale: 8 Vector__XXX
- SG_ acc_set_scale : 0|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ acc_set_scale : 0|3@1+ (1,0) [0|4] "" Vector__XXX
 
 BO_ 1620 save_config: 8 Vector__XXX
- SG_ config_savetoEEPROM : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ config_savetoEEPROM : 0|1@1+ (1,0) [0|1] "" Vector__XXX
 
 BO_ 1623 out_acc_fast_calibration: 8 Vector__XXX
- SG_ Acc_SetCalibTarget_X : 0|2@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Acc_SetCalibTarget_y : 8|2@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Acc_SetCalibTarget_Z : 16|2@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Acc_startFastCalib : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Acc_SetCalibTarget_X : 0|2@1+ (1,0) [0|2] "" Vector__XXX
+ SG_ Acc_SetCalibTarget_y : 8|2@1+ (1,0) [0|2] "" Vector__XXX
+ SG_ Acc_SetCalibTarget_Z : 16|2@1+ (1,0) [0|2] "" Vector__XXX
+ SG_ Acc_startFastCalib : 24|1@1+ (1,0) [0|1] "" Vector__XXX
 
 
 
