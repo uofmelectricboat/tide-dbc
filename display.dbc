@@ -38,16 +38,16 @@ BU_:
 
 BO_ 2683372518 display1: 8 Vector__XXX
  SG_ mph : 0|8@1- (1,0) [-999|999] "" Vector__XXX
- SG_ rpm : 8|8@1+ (1,0) [0|9999] "" Vector__XXX
- SG_ batterypercent : 16|8@1+ (1,0) [0|100] "" Vector__XXX
- SG_ battery_temp : 24|8@1- (1,0) [-50|250] "" Vector__XXX
- SG_ motor_temp : 32|8@1- (1,0) [-50|250] "" Vector__XXX
- SG_ power : 40|8@1+ (1,0) [0|999] "" Vector__XXX
- SG_ water_status : 48|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Cooling_status : 56|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rpm : 8|8@1- (1,0) [-120000|120000] "" Vector__XXX
+ SG_ Battery_percent : 16|8@1+ (1,0) [0|100] "%" Vector__XXX
+ SG_ Battery_temp : 24|8@1+ (1,0) [0|250] "" Vector__XXX
+ SG_ Motor_temp : 32|8@1- (1,0) [-55|200] "C" Vector__XXX
+ SG_ Output_power : 40|8@1+ (1,0) [0|999] "kW" Vector__XXX
+ SG_ Water_status : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cooling_status : 56|2@1+ (1,0) [0|1] "" Vector__XXX
 
 
 
-VAL_ 2683372518 water_status 0 "good" 1 "bad" ;
+VAL_ 2683372518 Water_status 0 "good" 1 "bad" ;
 VAL_ 2683372518 Cooling_status 0 "good" 1 "warning" 2 "bad" ;
 
