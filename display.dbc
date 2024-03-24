@@ -37,8 +37,8 @@ BU_:
 
 
 BO_ 2683372518 display1: 8 Vector__XXX
- SG_ mph : 0|8@1- (1,0) [-999|999] "" Vector__XXX
- SG_ Battery_percent : 8|8@1+ (1,0) [0|100] "%" Vector__XXX
+ SG_ mph : 0|8@1- (1,0) [-999|999] "m/h" Vector__XXX
+ SG_ Battery_percent : 8|8@1+ (0.5,0) [0|100] "%" Vector__XXX
  SG_ Battery_temp : 16|8@1+ (1,0) [0|250] "" Vector__XXX
  SG_ Motor_temp : 24|8@1- (1,0) [-55|200] "C" Vector__XXX
  SG_ Output_power : 32|8@1+ (1,0) [0|999] "kW" Vector__XXX
