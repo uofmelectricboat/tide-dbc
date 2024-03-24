@@ -45,7 +45,7 @@ BO_ 2683372518 display1: 8 Vector__XXX
  SG_ Water_status : 40|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ Cooling_status : 48|2@1+ (1,0) [0|2] "" Vector__XXX
 
-BO_ 2683372517 display2: 4 Vector__XXX
+BO_ 2683372517 display2: 8 Vector__XXX
  SG_ RPM : 0|32@1- (1,0) [-120000|120000] "rpm" Vector__XXX
 
 
