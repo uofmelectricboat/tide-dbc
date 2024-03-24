@@ -36,9 +36,6 @@ BS_:
 BU_:
 
 
-BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
- SG_ rpm : 8|8@1- (1,0) [-120000|120000] "" Vector__XXX
-
 BO_ 2683372518 display1: 8 Vector__XXX
  SG_ mph : 0|8@1- (1,0) [-999|999] "" Vector__XXX
  SG_ Battery_percent : 8|8@1+ (1,0) [0|100] "%" Vector__XXX
