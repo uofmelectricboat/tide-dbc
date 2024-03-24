@@ -36,17 +36,19 @@ BS_:
 BU_:
 
 
-BO_ 2683372518 display1: 8 Vector__XXX
- SG_ mph : 0|8@1- (1,0) [-999|999] "m/h" Vector__XXX
- SG_ Battery_percent : 8|8@1+ (0.5,0) [0|100] "%" Vector__XXX
- SG_ Battery_temp : 16|8@1+ (1,0) [0|250] "C" Vector__XXX
- SG_ Motor_temp : 24|8@1- (1,0) [-55|200] "C" Vector__XXX
- SG_ Output_power : 32|8@1+ (1,0) [0|999] "kW" Vector__XXX
- SG_ Water_status : 40|1@1+ (1,0) [0|1] "" Vector__XXX
- SG_ Cooling_status : 48|2@1+ (1,0) [0|2] "" Vector__XXX
+BO_ 2683372518 display0: 8 Vector__XXX
+ SG_ mph : 8|8@1- (1,0) [-999|999] "m/h" Vector__XXX
+ SG_ Battery_percent : 16|8@1+ (0.5,0) [0|100] "%" Vector__XXX
+ SG_ Battery_temp : 24|8@1+ (1,0) [0|250] "C" Vector__XXX
+ SG_ Motor_temp : 32|8@1- (1,0) [-55|200] "C" Vector__XXX
+ SG_ Output_power : 40|8@1+ (1,0) [0|999] "kW" Vector__XXX
+ SG_ Water_status : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cooling_status : 56|2@1+ (1,0) [0|2] "" Vector__XXX
+ SG_ framenumber0 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
 
-BO_ 2683372517 display2: 8 Vector__XXX
- SG_ RPM : 0|32@1- (1,0) [-120000|120000] "rpm" Vector__XXX
+BO_ 2683372517 display1: 8 Vector__XXX
+ SG_ RPM : 8|32@1- (1,0) [-120000|120000] "rpm" Vector__XXX
+ SG_ framenumber1 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
 
 
 
